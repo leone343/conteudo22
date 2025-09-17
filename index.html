@@ -48,8 +48,8 @@
       text-decoration:none;
       color:var(--text);
       font-weight:900;
-      font-size: clamp(18px, 6vw, 28px);
-      padding: 18px 45px;
+      font-size: clamp(20px, 7vw, 32px);
+      padding: 35px 60px; /* 🔥 aumentei bastante a altura */
       border-radius: 999px;
       background: linear-gradient(270deg, #ff002f, #ff334d, #ff002f);
       background-size: 600% 600%;
@@ -57,7 +57,7 @@
       box-shadow: 0 0 25px rgba(255,0,47,0.7), 0 0 60px rgba(255,51,77,0.5);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       text-align:center;
-      max-width: 90%;
+      max-width: 95%;
     }
 
     a.pulse-btn:hover{
@@ -95,12 +95,12 @@
       100% { background-position: 0% 50%; }
     }
 
-    /* Ajuste específico para celulares */
+    /* Ajuste para celular */
     @media (max-width:600px){
       a.pulse-btn{
-        width: 85%;
-        font-size: 18px;
-        padding: 16px;
+        width: 90%;
+        font-size: 20px;
+        padding: 30px; /* botão bem largo também no mobile */
       }
     }
   </style>
